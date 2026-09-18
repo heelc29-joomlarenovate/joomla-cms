@@ -1,3 +1,21 @@
 {
-  "$schema": "https://docs.renovatebot.com/renovate-schema.json"
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "prBodyNotes": [
+    "depName={{depName}}",
+    "newVersion={{newVersion}}",
+    "manager={{manager}}",
+    "datasource={{datasource}}",
+    "{{depName}}",
+    "{{packageName}}",
+    "{{currentVersion}}",
+    "{{newVersion}}",
+    "{{updateType}}",
+    "{{manager}}",
+    "{{datasource}}",
+    "{{sourceUrl}}",
+    "{{isMajor}}",
+    "{{isMinor}}",
+    "{{isPatch}}",
+    "{{baseBranch}}"
+  ]
 }
