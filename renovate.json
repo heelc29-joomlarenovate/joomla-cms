@@ -2,5 +2,6 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "additionalBranchPrefix": "{{{replace '-dev$' '' baseBranch}}}/",
   "commitMessagePrefix": "[{{{replace '-dev$' '' baseBranch}}}]",
+  "baseBranchPatterns": ["/^\\d+\\.\\d+-dev$/"],
   "dependencyDashboard": true
 }
