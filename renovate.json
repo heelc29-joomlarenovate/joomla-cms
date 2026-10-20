@@ -6,5 +6,6 @@
   ],
   "baseBranchPatterns": ["/^\\d+\\.\\d+-dev$/"],
   "dependencyDashboard": true,
-  "enabledManagers": ["composer", "npm"]
+  "enabledManagers": ["composer", "npm"],
+  "osvVulnerabilityAlerts": false
 }
