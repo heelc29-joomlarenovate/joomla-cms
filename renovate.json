@@ -4,5 +4,6 @@
     "config:recommended"
   ],
   "baseBranchPatterns": ["/^\\d+\\.\\d+-dev$/"],
-  "dependencyDashboard": true
+  "dependencyDashboard": true,
+  "enabledManagers": ["composer", "npm"]
 }
