@@ -70,8 +70,8 @@ jobs:
           PHP_CS_FIXER_IGNORE_ENV: true
         run: |
           set -e
-          if [ "$GITHUB_REPOSITORY" = "joomla/joomla-cms" ]; then
-            ./libraries/vendor/bin/php-cs-fixer fix -vvv --diff --dry-run
+          if [ "$GITHUB_REPOSITORY" = "heelc29-joomlarenovate/joomla-cms" ]; then
+            ./libraries/vendor/bin/php-cs-fixer check -vvv --diff
             exit 0
           fi
           ./libraries/vendor/bin/php-cs-fixer fix -vvv --diff
