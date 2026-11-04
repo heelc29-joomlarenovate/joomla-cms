@@ -107,8 +107,8 @@ class OverrideModel extends AdminModel
         $result->override = '';
 
         if (isset($strings[$pk])) {
-            $result->key      = $pk;
-            $result->override = $strings[$pk];
+          $result->key      = $pk;
+          $result->override = $strings[$pk];
         }
 
         $oppositeFileName = \constant('JPATH_' . strtoupper($this->getState('filter.client') == 'site' ? 'administrator' : 'site'))
